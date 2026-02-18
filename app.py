@@ -40,7 +40,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------- LOAD MODEL ----------------
-model = joblib.load("best_model.pkl")
+model = joblib.load("model.pkl")
 
 # ---------------- TITLE ----------------
 st.title("📊 Tanzania Stock Index Prediction App")
